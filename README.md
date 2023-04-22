@@ -35,4 +35,17 @@ If you have to switch branches, use the git switch command instead of git checko
 ## git branch -m nameOfTheBranch
 *to rename a branch*
 
+`git branch -m old-branch new-branch`
+*this code changes the the name of the old branch to new branch without switching the old branch*
 
+## How to rename remote branches
+1. Delete current or old branch
+`git push origin --delete <old-name>`
+
+2. Then simply push the new branch with correct name
+`git push -u origin <new-branch>`
+
+
+## Setting up token for a repo
+
+`git remote set-url origin https://IlkhomjonUmaraliev:token@github.com/IlkhomjonUmaraliev/nameOfTheRepo`
