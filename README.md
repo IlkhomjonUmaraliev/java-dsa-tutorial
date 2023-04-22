@@ -49,3 +49,14 @@ If you have to switch branches, use the git switch command instead of git checko
 ## Setting up token for a repo
 
 `git remote set-url origin https://IlkhomjonUmaraliev:token@github.com/IlkhomjonUmaraliev/nameOfTheRepo`
+<<<<<<< Updated upstream
+=======
+
+## git stash
+`git add .` and `git stash` the last `git stash` command save the changes as draft
+`git apply` makes the stashed files visible again
+
+`git stash list` --> to see the list of stashed file
+
+`git stash push -m "some text"` --> to stash files with description
+>>>>>>> Stashed changes
