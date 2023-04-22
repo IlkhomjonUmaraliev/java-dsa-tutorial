@@ -16,3 +16,23 @@
 ## git push --force 
 Do this when your repo is only used by you (if other people are using your repo it can lead to fatal errors)
 
+## Head branch
+*currently active or checked out branch*
+git checkout review -> Head branch will change to review
+
+## git checkout vs switch
+### git checkout
+As Dan Fabulich notes, git checkout does three things:
+1. switch branches
+2. copy files from the stage to the working tree
+3. copy files from a tree-ish to the working tree
+
+
+### git switch
+If you have to switch branches, use the git switch command instead of git checkout. Why? Because it was created for this specific task.
+
+
+## git branch -m nameOfTheBranch
+*to rename a branch*
+
+
